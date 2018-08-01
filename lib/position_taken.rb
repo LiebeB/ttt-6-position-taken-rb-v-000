@@ -25,3 +25,11 @@ end
 def move(board, index, player)
   board[index] = player
 end
+
+def position_taken?(board, index)
+     if (board[index] == " ") || (board[index] == "") || (board[index] == nil)
+       return false
+     else
+       return true   #board[index] is not " " or "" or nil because there's an "X" or "O"
+     end
+end
