@@ -1,6 +1,6 @@
 # code your #position_taken? method here!
 
-puts board = [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ']
+print board = [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ']
 
 def display_board
    puts row = ["   " "|" "   " "|" "   "]
